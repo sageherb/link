@@ -5,7 +5,7 @@ import { useDispatch } from "react-redux";
 import PropTypes from "prop-types";
 import * as THREE from "three";
 
-import linkAnglesCalculator from "./linkAngleCalculator";
+import linkAnglesCalculator from "./LinkAngleCalculator";
 import { setIsLinked, setLinkEdge } from "../redux/edgeLinkSlice";
 import linkedSound from "../assets/music/linkedSound.mp3";
 
