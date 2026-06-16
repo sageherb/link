@@ -54,7 +54,7 @@ export default function StageControlBoxSurface({
       onPointerOver={handlePointerOver}
       onPointerOut={handlePointerOut}
     >
-      <planeBufferGeometry args={args} />
+      <planeGeometry args={args} />
       <Image
         raycast={() => null}
         position={[0, 0, 0.001]}

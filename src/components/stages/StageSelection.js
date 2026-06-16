@@ -1,9 +1,5 @@
 import { Canvas } from "@react-three/fiber";
-import {
-  PresentationControls,
-  Environment,
-  ContactShadows,
-} from "@react-three/drei";
+import { PresentationControls, ContactShadows } from "@react-three/drei";
 
 import StageControlBox from "./StageControlBox";
 
@@ -22,7 +18,6 @@ export default function StageSelection() {
         blur={1.5}
         far={4}
       />
-      <Environment preset="city" />
     </Canvas>
   );
 }
