@@ -1,5 +1,4 @@
 import { configureStore } from "@reduxjs/toolkit";
-import logger from "redux-logger";
 
 import stage from "./stageSlice";
 import screenMode from "./screenModeSlice";
@@ -13,7 +12,6 @@ const store = configureStore({
     edgeLink,
     currentCoordinates,
   },
-  middleware: getDefaultMiddleware => getDefaultMiddleware().concat(logger),
 });
 
 export default store;
